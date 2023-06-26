@@ -1,0 +1,103 @@
+.hero{
+    display: flex;
+    width: 1200px;
+    height: 550px;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+    &__title{
+        background-color: #E7E8E3;
+        width: 171px;
+        height: 20px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        padding: 1px 13px;
+        margin-top: -20px;
+    }
+    &__img{
+        width: 600px;
+        margin-left: 83px;
+    }
+    &__h1{
+        color: #2A2C1F;
+font-size: 56px;
+font-family: Roboto;
+line-height: 67.2px;
+margin-top: 10px;
+display: flex;
+width: 516px;
+flex-direction: column;
+    }
+    &__text{
+        color: #65665C;
+font-size: 20px;
+font-family: Roboto;
+line-height: 30px;
+width: 500px;
+margin-top: 10px;
+
+    }
+    &__button{
+        color: #65665C;
+font-size: 20px;
+font-family: Roboto;
+line-height: 30px;
+border-radius: 6px;
+border: 1px solid #E7E8E3;
+background: #FFF;
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+width: 270px;
+height: 48px;
+flex-shrink: 0;
+padding: 1px 160px 1px 0px;
+    }
+    &__btn{
+        color: #FFF;
+font-size: 20px;
+font-family: Roboto;
+line-height: 30px;
+border-radius: 6px;
+border: 1px solid #CF6F49;
+background: #CF6F49;
+width: 154px;
+height: 48px;
+flex-shrink: 0;
+margin-left: 20px;
+    }
+    &__buttons{
+        display: flex;
+        margin-top: 20px;
+    }
+    &__button:hover{
+        transition: 2s;
+        border:1px solid #CF6F49;
+        box-shadow: 10px 5px 10px 5px #CF6F49;
+    }
+    &__btn:hover{
+        transition: 2s;
+        color: #CF6F49;
+        background-color: #FFF;
+    }
+  &__as{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+  }
+  &__logos{
+    margin-left: 280px;
+  }
+  &__logo{
+    margin-left: 20px;
+  }
+  &__p{
+    color: #2A2C1F;
+font-size: 18px;
+font-family: Roboto;
+line-height: 27px;
+display: flex;
+width: 243px;
+flex-direction: column;
+flex-shrink: 0;
+  }
+}
